@@ -1,0 +1,58 @@
+
+body{
+  padding:0; /* 瀏覽器的視窗大小改變時顯示處理 */
+  background: -webkit-linear-gradient(90deg,orange,#00ccff);
+background: -o-linear-gradient(90deg,orange,#00ccff);
+background: -moz-linear-gradient(90deg,orange,#00ccff);
+background: linear-gradient(90deg,orange,#00ccff);
+ font-family:微軟正黑體;
+}
+div.top{
+  background:rgba(255,255,255,0.5);
+    height:550px;
+   margin-left: 9%;
+   margin-right: 9%;
+   border-radius: 50px;
+   padding:5% 5% 5% 5%;
+ }
+
+
+div.topNav{
+  font-family:微軟正黑體;
+  margin-left: 350px;
+  height:500px;
+  font-size: 25px;
+}
+
+
+
+
+
+div.content{
+  background:rgba(255,255,255,0.5);
+  margin-top: 2%;
+  margin-left: 9%;
+  margin-right: 9%;
+  border-radius: 50px;
+  padding:5% 5% 5% 5%;
+ height:auto;
+}
+
+div.hu{
+   background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+  
+}
+
+div.content3{
+  background:rgba(255,255,255,0.5);
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
+  padding:5% 5% 5% 5%;
+ height:auto;
+}
+
+
+}

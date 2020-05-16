@@ -1,0 +1,194 @@
+<style>
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  font-family: 微軟正黑體;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background:rgba(255,255,255,0.5);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width:33.33%;
+  font-size: 15.5px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background:rgba(255,255,255,0.5);
+}
+
+/*以上經歷組*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 5px;
+}
+
+/*以上興趣組*/
+	img.big:hover {height: 60px;
+                 width: 60px; }
+
+     .but{
+     		border:0;
+  			background:rgba(255,255,255,0.8);
+  			color:black;
+  			border-radius:10px;
+  			cursor:pointer;
+  			width:150px;height:50px;
+  			font-size: 15px;
+  		}
+
+    .but:hover{
+  			color:#003C9D;
+ 			background-color:#fff;
+  			border:2px #003C9D solid;
+  			width:150px;height:50px;
+		}
+		#htm {
+	border-radius: 50px;
+  height: 40px;
+  background-color: red;
+  animation-name: barq ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+	#css {
+  height: 40px;
+  border-radius: 50px;
+  background-color: orange;
+  animation-name: barqq ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+	#js {
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50px;
+  animation-name: barqqq ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+	#c {
+  height: 40px;
+  background-color: green;
+  border-radius: 50px;
+  animation-name: barqqqq ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes barq {
+  from {width: 0%;}
+  to {width:90%;animation-play-state:forwards;}
+}
+@keyframes barqq {
+  from {width: 0%;}
+  to {width:80%;animation-play-state:forwards;}
+}
+@keyframes barqqq {
+  from {width: 0%;}
+  to {width:65%;animation-play-state:forwards;}
+}
+@keyframes barqqqq {
+  from {width: 0%;}
+  to {width:80%;animation-play-state:forwards;}
+}
+
+/*以上技能組*/
+
+.flip3D{ width:240px; height:200px; margin:10px; float:left; }
+.flip3D > .front{
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 0deg );
+	background:#FC0; width:240px; height:200px; border-radius: 7px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+.flip3D > .back{
+	position:absolute;
+	transform: perspective( 600px ) rotateY( 180deg );
+	background: #80BFFF; width:240px; height:200px; border-radius: 7px;
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+.flip3D:hover > .front{
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.flip3D:hover > .back{
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+/*翻轉效果*/
+.hh:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/*圖片抖動*/
+	</style>

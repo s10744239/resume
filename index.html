@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zzc個人履歷</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="image/logo1.png" type="image/x-icon" / >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="css/top.js"></script> 
+
+<style>
+	/*版面連結*/
+	@import url(css/css.css);
+	@import url(css/any.css);
+	@import url(css/fly.css);
+	hr{
+ 	  border: 10px;
+    height: 10px;
+    background-image: linear-gradient(to right,orange ,#00ccff);
+		}
+</style>
+</head>
+<body>
+	<div id="gotop" style="position:fixed;bottom:0%;right:2%;z-index:2;"> 
+		<img  src="image/cat7.png"/ width="200" onMouseOver="this.src='image/cat8.png';" onMouseOut="this.src='image/cat7.png'; ">&nbsp;
+	</div>
+
+	<script type="text/javascript">
+		$("#gotop").click(function(){
+    	jQuery("html,body").animate({
+        scrollTop:0
+    	},1000);
+		});
+		$(window).scroll(function() {
+   		 if ( $(this).scrollTop() > 0){
+        $('#gotop').fadeIn("fast");
+    	} else {
+        $('#gotop').stop().fadeOut("fast");
+    	}
+		});
+	</script>
+
+
+
+
+
+
+
+
+	<div class="top">
+		<div class="flip3D">
+  		<div class="back"><img src="image/my2.jpg" style="width:300px;  border-radius: 50%;float:left;"/></div>
+  		<div class="front"><img src="image/my.jpg" style="width:300px;  border-radius: 50%;float:left;"/></div>
+	</div>
+		
+		<div class="topNav">
+		 	<h1 class="fly">莊智丞</h1> 
+			<h4>「 金錢是個好兵士，有了它就可以使人勇氣百倍。」                    <br><div style="text-align: right;">-莎士比亞</div></h4>
+              我是莊智丞，目前就讀中原大學資訊管理學系，現在對賺錢很有興趣，最近開始研究股票之類的東西，然後家裡有養了三隻貓，現在和牠們過著幸福快樂的日子。
+
+			<hr>
+         	【這裡可以聯絡到我喔】<br>
+         	<table ><tr>
+         	<td><a href="https://s10744239.github.io/newdemo/" ><button class="but">個人網站</button></a>&nbsp;</td>
+			<td><a href="https://www.facebook.com/profile.php?id=100004938907781" ><img src="image/fb.png" width="50"/ class="big"></a>&nbsp;</td>
+          	<td><a href="https://instagram.com/zhuang_zhicheng?igshid=18p3tahsybi9a"><img src="image/ig.png"width="50"/ class="big"></a></td>
+      		</tr></table>
+          	
+		</div>
+    </div>
+
+
+<div class="content">
+			
+		<table  style="width: 100%;" >
+			<tr>
+				<td  valign="top" style="width: 50%;" >
+
+		<br>
+		<h1 class="fly">專業技能<br><hr></h1>
+
+
+			<p><b>HTML</b></p>
+			<div class="container" style ="border-radius: 50px;" >
+  				<div id="htm" align="right">90%</div>
+			</div>
+
+			<p><b>CSS</b></p>
+			<div class="container" style ="border-radius: 50px;">
+  				<div id="css" align="right">80%</div>
+			</div>
+
+			<p><b>JavaScript</b></p>
+			<div class="container" style ="border-radius: 50px;">
+  				<div id="js" align="right">65%</div>
+			</div>
+
+			<p><b>c++</b></p>
+			<div class="container" style ="border-radius: 50px;">
+  				<div id="c" align="right">80%</div>
+			</div>
+	
+
+
+
+
+		<h1 class="fly">課程專案<br><hr></h1>
+		
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')"><b>大一|<br>企業概論</b></button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')"><b>大二|<br>網路程式設計</b></button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><b>大二|<br>網路拍賣與直播電商</b></button>
+</div>
+
+			<div id="London" class="tabcontent">
+  				<h3>企業概論  資想皂顧你</h3>
+  					<p><center>
+  					<img src="image/h1.jpg" style="width:50%;  ">
+  				   </center>
+  					<blockquote>
+  					和「肯納基金會合作」所得將全數交給基金會，幫助弱勢及身心障礙者。而我們所販售的商品均為肯納兒們用心製作而成且成分都較為天然，造型也相當可愛。
+  					</blockquote></p>
+			</div>
+
+			<div id="Paris" class="tabcontent">
+ 				<h3>網路程式設計  食。chen</h3>
+ 					<p><center>
+  					<img src="image/h2.png" style="width:50%;  ">
+  				   </center></p>
+  					<blockquote>
+  					這學期主要是學習網頁的後端，而我們購物網站設計是要販賣馬卡龍，而組員全部都姓陳，就除了我以外，但是我的鳴子最後一個字有「丞」，然後又是賣吃的小點心，因此名稱就決定為「食。chen」。
+  					</blockquote> 
+			</div>
+
+			<div id="Tokyo" class="tabcontent">
+  				<h3>網路拍賣與直播電商  食Something</h3>	
+ 				<p><center>
+  					<img src="image/h3.jpg" style="width:50%; ">
+  				   </center></p>
+  					<blockquote>
+  					這門課是讓我們學習和實作網路銷售，也讓我們體驗網路直播的是怎麼一回事，而我們這次銷售的商品為古早味餅乾，希望可以讓大家想起小食候的回憶。  	</blockquote> 
+			</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</td>
+
+				<td valign="top" >
+			<blockquote>
+			<h1 class="fly">工作經驗<br><hr></h1>
+			    	<div style="font-size: 25px" >
+			<img src="image/s1.png" style="width:100px" class="hh"/><b>夜市牛排</b><br><br>
+			<img src="image/s2.png" style="width:100px" class="hh"/><b>夜市果凍</b><br><br>
+			<img src="image/s3.png" style="width:100px" class="hh"/><b>飯店服務生</b><br><br>
+			<img src="image/s4.png" style="width:100px" class="hh"/><b>飲料店門市人員</b><br><br>
+					</div>
+			</blockquote>
+				</td>
+			</tr>
+		</table>
+
+		<div>
+	 	<h1  class="fly">我的興趣<br><hr></h1>
+
+	 	<div class="row">
+  <div class="column">
+    <div class="content3">
+      <img src="image/hh1.jpg"  style="width:100%">
+      <h2 class="hh">看影片</h2>
+      <p>
+      	這件事情是最讓我可以放鬆的，可以讓我暫時性的放空，忘記我的煩惱，讓我可以休息一下，再繼續面對我的人生。
+      </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content3">
+    <img src="image/hh2.jpg"  style="width:100%;height:50%;">
+      <h2 class="hh">賺錢</h2>
+      <p>
+		其實講好聽是賺錢，另外一個角度其實是因為我喜歡歡錢，所以我對「如何賺錢」很有興趣的。
+      </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content3">
+    <img src="image/hh3.jpg"  style="width:100%">
+      <h2 class="hh">我的貓</h2>
+      <p>
+      	它們是我家的貓，然後每一隻都非常的胖，我在家都會常常跟他們一起玩，想要幫他們減肥，可是好像沒什麼用。
+      </p>
+    </div>
+  </div>
+	 	</div>
+
+		
+		
+				
+			
+			
+</div>
+
+
+	 
+
+
+</body>
+</html>
